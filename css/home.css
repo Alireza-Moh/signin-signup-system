@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page-wrapper {
+    height: 100vh;
+    background-color: #f1f5f9;
+}
+
+.page-wrapper .main-container-home {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/home-banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.page-wrapper .main-container-home .banner-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-wrapper .main-container-home .banner-container .inner-banner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.page-wrapper .main-container-home .banner-container .inner-banner-container .headline {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+    color: #eee;
+}
+
+.page-wrapper .main-container-home .banner-container .inner-banner-container .logoutButtonHome {
+    list-style: none;
+    border: none;
+    background-color: tomato;
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0 0 0 2px #fff;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.page-wrapper .main-container-home .banner-container .inner-banner-container .logoutButtonHome .logout-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+}
+
+.page-wrapper .main-container-home .banner-container .inner-banner-container .logoutButtonHome:hover {
+    background-color: teal;
+}
